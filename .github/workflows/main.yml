@@ -14,5 +14,6 @@ jobs:
           echo "Amigoscode"
           echo "Hello" > file.txt
           ls
+          cat file.txt
       - name: Sleep step
-        run: sleep 20
+        run: sleep 5
