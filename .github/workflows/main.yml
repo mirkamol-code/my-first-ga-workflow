@@ -17,3 +17,8 @@ jobs:
           cat file.txt
       - name: Sleep step
         run: sleep 5
+      - name: My First Action
+        uses: actions/checkout@4
+      - name: ls repo
+        run: |
+          ls
